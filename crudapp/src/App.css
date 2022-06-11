@@ -1,0 +1,82 @@
+.App {
+	text-align: center;
+	width: 50%;
+	background: #f1f5f9;
+	margin-inline: auto;
+	margin-top: 3rem;
+}
+/* .article {
+	width: 50%;
+	background: rgb(221, 214, 214);
+} */
+
+.item {
+	display: flex;
+	border-radius: 5px;
+	background-color: #fafafa;
+	justify-content: space-between;
+	padding: 0.2rem 1rem;
+	margin-bottom: 1rem;
+}
+.alert {
+	border-radius: 5px;
+	background-color: #f87171;
+	color: #f1f5f9;
+}
+input {
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	padding: 0.5rem 1rem;
+}
+
+.form {
+	background-color: #e2e8f0;
+	width: 50%;
+	padding: 2rem 1rem;
+	margin-inline: auto;
+	box-shadow: 0px 1px 2px #0f172a;
+	margin-bottom: 2rem;
+	padding: 2rem 1rem;
+}
+.article {
+	background-color: #e2e8f0;
+	width: 50%;
+	margin-inline: auto;
+	box-shadow: 0px 1px 2px #0f172a;
+	padding: 2rem 1rem;
+}
+.item-info {
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+}
+.item-info p:nth-child(1) {
+	margin-right: 10rem;
+}
+
+.btn-submit {
+	background: #334155;
+	color: #e2e8f0;
+	border: none;
+	padding: 0.6rem 2rem;
+	margin-top: 0.7rem;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+.item-icons {
+	align-self: center;
+}
+.item-icons button {
+	border: none;
+	background: transparent;
+	font-size: 1.5rem;
+}
+.btn-edit {
+	color: #166534;
+}
+.btn-delete {
+	color: #b91c1c;
+}
